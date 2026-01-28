@@ -2,6 +2,9 @@
 # to sort screenshots taken on my system into folders matching the month of capture
 # using pathlib
 
+from  pathlib import Path
+import shutil
+
 source = Path.home() / 'Pictures' / 'Screenshots'
 
 sshots = source.glob('*.png')
