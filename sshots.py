@@ -1,6 +1,4 @@
-# a gentle introduction to system automation on linux using python and crontab
-# to sort screenshots taken on my system into folders matching the month of capture
-# using pathlib
+#!/usr/bin/env python3
 
 from  pathlib import Path
 import shutil
